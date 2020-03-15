@@ -1,0 +1,43 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background: url('background.png') no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: scroll;
+  font-family: arial black;
+  font-size: 4vmax;
+  color: white;
+}
+.maincontainer{
+  margin-left: 10vw;
+  margin-right: 9vw;
+margin-top: 6vw;
+margin-bottom: 8vw;
+}
+p{
+  background-color: black;
+  padding-left: 1vw;
+
+}
+h1, h2{
+  background-color: red;
+    padding-left: 3vw;
+}
+.column{
+  float: left;
+  width: 50%;
+padding-right: 5vw;
+}
+.row{
+display: flex;
+flex-direction: row;
+}
+iframe{
+  width: 38vw;
+  height: 20.1vw;
+}
+img{
+  width: 38vw;
+
+}
